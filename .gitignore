@@ -1,0 +1,6 @@
+venv/
+django_my_site/
+*sqlite3
+__pycache__/
+staticfiles/
+.env 

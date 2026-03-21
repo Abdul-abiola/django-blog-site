@@ -1,0 +1,76 @@
+body {
+  background-color: #e7e7e7;
+}
+
+#main-navigation {
+  background-color: #390281;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+#all-posts {
+  margin: 7rem auto;
+  width: 90%;
+  max-width: 60rem;
+}
+
+#all-posts h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #2e2e2e;
+  margin: 3rem 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+  gap: 1.5rem;
+}
+
+.post img {
+  /* width: 7rem;
+  height: 7rem; */
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+.post h3 {
+  margin: 0.5rem 0;
+  color: #390281;
+}
+
+.post p {
+  color: #444;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+
+}
+
+.post a {
+  display: block;
+  text-decoration: none;
+  /* color: #2e2e2e; */
+  padding: 1.5rem;
+  height: 22rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  background: white;
+  text-align: center;
+  color: #2e2e2e;
+  /* transition: all 0.2s ease-out; */
+  /* height: 22rem;
+  transform-origin: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  background-color: white; */
+}
+
+.post a:hover {
+  background:  #6217b8;
+}
