@@ -30,7 +30,6 @@ h3 {
 }
 #main-navigation nav{
   display: flex;
-  align-items: center;
   gap: 20px;
 }
 
