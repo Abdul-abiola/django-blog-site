@@ -5,14 +5,12 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 10%;
-  background-color: #3e059b;
   position: absolute;
   top: 0;
   left: 0;
 }
 #main-navigation nav {
   display: flex;
-  /* align-items: center; */
   gap: 30px;
 }
 
@@ -20,15 +18,11 @@
   text-decoration: none;
   color: white;
   font-weight: bold;
-  /* margin: 0; */
 }
 
 #main-navigation a:hover,
 #main-navigation a:active {
   color: #cf79f1;
-}
-#main-navigation h1 {
-  margin: 0;
 }
 
 #main-navigation h1 a:hover,
