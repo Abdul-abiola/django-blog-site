@@ -26,10 +26,9 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 40%;
+  padding: 0 50%;
+  box-sizing: border-box;
   position: relative;
-  /* top: 0;
-  left: 0; */
 }
 #main-navigation nav{
   display: flex;
