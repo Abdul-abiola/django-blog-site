@@ -23,22 +23,24 @@ h3 {
   width: 100%;
   height: 5rem;
   display: flex;
-  background-color: #4b0082;
   justify-content: space-between;
   align-items: center;
   padding: 0 50%;
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
-#main-navigation nav{
+/* #main-navigation nav{
   display: flex;
   gap: 20px;
-}
+} */
 
 #main-navigation a {
   text-decoration: none;
   color: white;
   font-weight: bold;
-  margin: 0;
+  margin-left: 3rem;
+  /* margin: 0; */
 }
 
 #main-navigation a:hover,
