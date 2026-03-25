@@ -9,7 +9,10 @@
   top: 0;
   left: 0;
 }
-
+#main-navigation nav {
+  display: flex;
+  gap: 30px;
+}
 
 #main-navigation a {
   text-decoration: none;
