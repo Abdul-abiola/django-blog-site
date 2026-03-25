@@ -25,14 +25,14 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 10%;
+  padding: 0 80%;
   position: absolute;
   top: 0;
   left: 0;
 }
 #main-navigation nav{
   display: flex;
-  gap: 30px;
+  gap: 25px;
 }
 
 #main-navigation a {
