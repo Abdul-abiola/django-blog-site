@@ -26,12 +26,14 @@ h3 {
   justify-content: space-between;
   align-items: center;
   padding: 0 10%;
-  background-color: #3e059b;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
-#main-navigation nav{
+/* #main-navigation nav{
   display: flex;
   gap: 20px;
-}
+} */
 
 #main-navigation a {
   text-decoration: none;
