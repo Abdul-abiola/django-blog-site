@@ -12,6 +12,7 @@
 #main-navigation nav {
   display: flex;
   gap: 30px;
+  margin-left: 15%;
 }
 
 #main-navigation a {
