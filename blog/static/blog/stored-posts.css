@@ -1,7 +1,42 @@
 #main-navigation {
-    background-color: #390281;
-    box-shadow: 0 2px 8px rgba(0,0,0, 0.25);
+  width: 100%;
+  height: 5rem;
+  background: linear-gradient(to right top, #6305dd, #390281);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ padding: 0 5%;      
+  position: relative;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
 }
+#main-navigation nav {
+  display: flex;
+  gap: 30px;
+  margin-left:0;
+}
+
+#main-navigation a {
+  text-decoration: none;
+  color: white;
+  font-size: medium ;
+}
+
+#main-navigation a:hover,
+#main-navigation a:active {
+  color: #cf79f1;
+}
+
+#main-navigation h1 a:hover,
+#main-navigation h1 a:active {
+  color: white;
+}
+#main-navigation h1 a {
+  font-size: 1.5rem;
+  margin-left: 0;
+}
+
 #stored-posts {
     margin: 8rem auto 3rem auto;
     padding: 2rem;
