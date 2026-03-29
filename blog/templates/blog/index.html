@@ -11,14 +11,21 @@
 {% endblock %}
 
 {% block content %}
-<section id="welcome">
+<section id="main-navigation">
+  <h1><a href="/">Abdul' blog</a></h1> 
+  <nav>
+    <a href="#welcome">Stored Posts</a>
+    <a href="#latest-posts">All Posts</a>
+  </nav>
+</section>
+
+  <section id="welcome">
   <header>  
     <img src="{% static "blog/images/abdul.jpg" %}" alt="Abdul- The Author and founder of this Blog"/>
-  <div class="blog">
     <h2>ABDUL'S BLOG</h2>
   </header>
     <p>Hi, I am Abdul and i am a software developer and loves posting about tech and the world!</p>
-  </div>
+
 </section>
 
 
