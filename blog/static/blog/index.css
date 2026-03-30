@@ -1,6 +1,6 @@
 #main-navigation {
   width: 100%;
-  min-height: 5rem;
+  height: 5rem;
   background: linear-gradient(to right top, #6305dd, #390281);
   display: flex;
   justify-content: space-between;
